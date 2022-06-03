@@ -1,0 +1,77 @@
+
+Part 1:
+
+1.What is HTTP?
+HTTP is a Hypertext Transfer Protocol, it is a set of rules or structure for sending information to a browser.
+
+
+2.What is a URL?
+A URL is used as an address to access or communicate with a specific server, and get certain pages or information from it.
+
+
+3.What is DNS?
+DNS turns a domain name into an ip address.
+
+
+4.What is a query string?
+
+A query string is an optional part of a URL, that provides extra information using key and value pairs, it is used for things like searching.
+
+
+5.What are two HTTP verbs and how are they different?
+Two HTTP verbs are get and post.
+
+get, gets information without changing anything on the server, post, posts information to a server which change stuff on the server.
+
+
+
+6.What is an HTTP request?
+
+An HTTP request is when the browser requests information from the server.
+Like if you search something on the website or click a button.
+
+
+
+7.What is an HTTP response?
+
+An HTTP response is the information like html, css and js, that is sent back from the server, like information on what the page looks like.
+
+
+
+8.What is an HTTP header? Give a couple examples of request and response headers you have seen.
+
+An HTTP header is extra information like what language, and what url.
+Ex: en-Us for what language.
+
+
+
+9.What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+
+Your computer tries to find the corresponding ip address by looking for it in you computer, then on the router then on the internet service provider, then using DNS. If it can't find it after checking all of these then It gives an error.
+
+If it dose find it, it requests information from it and the server responds with information like html so that it can show you the website page.
+
+
+
+Part 2:
+
+1. Using curl, I got  all jokes involving the word “pirate” from icanhazdadjoke.com,
+
+<pre style="background-color:inherit; white-space: pre-wrap">What did the pirate say on his 80th birthday? Aye Matey!</pre>
+
+What did the pirate say on his 80th birthday? Aye Matey!,
+
+What does a pirate pay for his corn? A buccaneer!,
+
+Why couldn't the kid see the pirate movie? Because it was rated arrr!,
+
+Why do pirates not know the alphabet? They always get stuck at "C",
+
+Why are pirates called pirates? Because they arrr!,
+
+
+2. The IP address for icanhazdadjoke.com is 172.67.211.64
+
+
+3. I made a server using python3 for my meme generator and visited it
+
